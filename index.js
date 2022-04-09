@@ -29,18 +29,18 @@ function myfunction()
     console.log(x,y,z)
     if((x>y)&&(x>z))
     {
-        document.querySelector("#winner").innerText="Member A"
+        document.querySelector("#winner").innerText="Winner is : Member A"
 
     }
     if((y>x)&&(y>z))
     {
-        document.querySelector("#winner").innerText="Member B"
+        document.querySelector("#winner").innerText="Winner is: Member B"
         
      
     }
     if((z>x)&&(z>y))
     {
-        document.querySelector("#winner").innerText="Member C"
+        document.querySelector("#winner").innerText="Winner is : Member C"
   
     }
 
