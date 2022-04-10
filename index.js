@@ -43,6 +43,10 @@ function myfunction()
         document.querySelector("#winner").innerText="Winner is : Member C"
   
     }
+    if((x==y)&&(y==z))
+    {
+        document.querySelector("#winner").innerText="It is a Tie"
+    }
 
     if((x>y)&&(x>z)) p1.style.backgroundColor="green"
     if((y>x)&&(y>z)) p2.style.backgroundColor="green"
